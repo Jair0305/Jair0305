@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jair Chavez Islas</h1>
-<h3 align="center">A passionate programmer currently focused on backend development from Guanajuato, Mexico</h3>
+<h3 align="center">A passionate programmer currently focused on backend development from Irapuato, Guanajuato, Mexico</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jair0305&label=Profile%20views&color=0e75b6&style=flat" alt="jair0305" /> </p>
 
