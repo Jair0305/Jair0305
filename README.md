@@ -1,43 +1,60 @@
 <div align="center">
 
-<!-- Animated gradient header -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=150&section=header&text=Jair%20Chavez%20Islas&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35"/>
+<!-- Animated gradient header - Volcano colors -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:111111,50:D82909,100:FCB930&height=200&section=header&text=Jair%20Chavez%20Islas&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Backend%20Developer%20%7C%20Cloud%20Enthusiast&descSize=18&descAlignY=55"/>
 
-<!-- Typing animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=100&lines=Backend+Developer+%F0%9F%9A%80;Cloud+%26+AWS+Solutions+%E2%98%81%EF%B8%8F;Building+Scalable+Systems+%F0%9F%94%A7" alt="Typing SVG" /></a>
+<!-- Typing animation - Volcano orange -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=EB5121&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=650&height=80&lines=Building+Scalable+Backend+Systems+%F0%9F%94%A5;Cloud+%26+AWS+Solutions+Architect+%E2%98%81%EF%B8%8F;Java+%7C+Spring+Boot+%7C+.NET+Developer+%F0%9F%92%BB;From+Guanajuato%2C+Mexico+%F0%9F%87%B2%F0%9F%87%BD" alt="Typing SVG" /></a>
 
 <br/>
 
-<!-- Badges row -->
-<img src="https://img.shields.io/badge/📍-Guanajuato,_México-A855F7?style=for-the-badge"/>
-<img src="https://komarev.com/ghpvc/?username=jair0305&style=for-the-badge&color=A855F7"/>
-<a href="https://github.com/jair0305?tab=followers">
-  <img src="https://img.shields.io/github/followers/jair0305?style=for-the-badge&color=A855F7&labelColor=1a1a2e"/>
-</a>
+<!-- Profile badges - Volcano theme -->
+![Location](https://img.shields.io/badge/📍_Guanajuato,_México-292929?style=for-the-badge&labelColor=111111)
+![Profile Views](https://komarev.com/ghpvc/?username=jair0305&style=for-the-badge&color=EB5121&label=PROFILE+VIEWS)
+[![Followers](https://img.shields.io/github/followers/jair0305?style=for-the-badge&color=D82909&labelColor=292929&label=Followers)](https://github.com/jair0305?tab=followers)
+[![Stars](https://img.shields.io/github/stars/jair0305?style=for-the-badge&color=FCB930&labelColor=292929&label=Stars)](https://github.com/jair0305?tab=repositories)
 
 </div>
 
 ---
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jair0305&layout=donut-vertical&theme=transparent&hide_border=true&title_color=A855F7&text_color=888888&ring_color=A855F7" width="200"/>
+## � About Me
 
-## �‍💻 About Me
+<img align="right" width="300" src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/base.svg" alt="Metrics"/>
 
-```js
-const jair = {
-  role: "Backend Developer",
+```typescript
+const jair: Developer = {
+  pronouns: "he" | "him",
   location: "Guanajuato, México 🇲🇽",
-  focus: ["Cloud Architecture", "API Design", "System Design"],
+  role: "Backend Developer",
   
-  currentWork: {
-    company: "Building scalable solutions",
-    projects: ["Electronic Invoicing Systems", "Government Platforms"]
+  currentlyWorkingOn: [
+    "SOFFIA - Electronic Invoicing Platform",
+    "Government Systems & Voting Platforms",
+    "Cloud-Native Applications"
+  ],
+  
+  techStack: {
+    backend: ["Java", "Spring Boot", "C#", ".NET"],
+    frontend: ["Next.js", "React", "Angular"],
+    cloud: ["AWS", "DynamoDB", "S3", "Cognito"],
+    devOps: ["Docker", "GitHub Actions", "Linux"]
   },
-
-  dailyStack: ["Java", "Spring Boot", ".NET", "AWS"],
-  exploring: ["Microservices", "Event-Driven Architecture"],
   
-  funFact: "I transform ☕ into clean code"
+  currentlyLearning: [
+    "Microservices Architecture",
+    "Event-Driven Systems",
+    "AWS Solutions Architecture"
+  ],
+  
+  askMeAbout: [
+    "Backend Development",
+    "API Design",
+    "Cloud Architecture",
+    "System Design"
+  ],
+  
+  funFact: "I debug with ☕ and solve problems with 🔥"
 };
 ```
 
@@ -45,90 +62,110 @@ const jair = {
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Arsenal
 
 <div align="center">
 
-<!-- Using skill-icons for modern look -->
+### 💻 Languages & Frameworks
+
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,spring,dotnet,cs,typescript,javascript,python&theme=dark&perline=7" alt="Languages"/>
+  <img src="https://skillicons.dev/icons?i=java,spring,dotnet,cs,typescript,javascript,python,nodejs&theme=dark&perline=8" alt="Languages"/>
 </a>
 
-<br/><br/>
+### ☁️ Cloud & DevOps
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,github,githubactions&theme=dark&perline=5" alt="Cloud & DevOps"/>
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,github,githubactions,linux,bash,gradle&theme=dark&perline=8" alt="Cloud & DevOps"/>
 </a>
 
-<br/><br/>
+### 🌐 Frontend & Design
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,tailwind,html,css&theme=dark&perline=6" alt="Frontend"/>
+  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,tailwind,html,css,figma,sass&theme=dark&perline=8" alt="Frontend"/>
 </a>
 
-<br/><br/>
+### 🗄️ Databases & Tools
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,dynamodb,redis&theme=dark&perline=5" alt="Databases"/>
-</a>
-
-<br/><br/>
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=git,linux,postman,idea,vscode&theme=dark&perline=5" alt="Tools"/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,dynamodb,redis,kafka,postman,idea&theme=dark&perline=8" alt="Databases & Tools"/>
 </a>
 
 </div>
 
 ---
 
-## � This Week I Spent My Time On
-
-<!--START_SECTION:waka-->
-```txt
-No activity tracked this week
-```
-<!--END_SECTION:waka-->
-
-> 💡 *Tip: Connect [WakaTime](https://wakatime.com) to track your coding time automatically!*
-
----
-
-## � GitHub Analytics
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- Modern metrics from lowlighter/metrics - This requires GitHub Actions setup -->
-<!-- For now, using enhanced github-readme-stats with modern themes -->
-
+<!-- Generated by lowlighter/metrics - More reliable than external services -->
 <table>
 <tr>
-<td width="50%">
+<td width="50%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=jair0305&show_icons=true&theme=transparent&hide_border=true&title_color=A855F7&icon_color=A855F7&text_color=888888&bg_color=00000000&ring_color=A855F7&include_all_commits=true&count_private=true&rank_icon=percentile" alt="GitHub Stats"/>
+<img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/base.svg" alt="GitHub Stats"/>
 
 </td>
-<td width="50%">
+<td width="50%" align="center">
 
-<img src="https://streak-stats.demolab.com/?user=jair0305&theme=transparent&hide_border=true&ring=A855F7&fire=A855F7&currStreakLabel=A855F7&sideLabels=888888&currStreakNum=888888&sideNums=888888&dates=555555" alt="GitHub Streak"/>
+<img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/languages.svg" alt="Top Languages"/>
 
 </td>
 </tr>
 </table>
 
-<!-- Activity Graph with modern styling -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=jair0305&bg_color=00000000&color=A855F7&line=A855F7&point=ffffff&area=true&hide_border=true&custom_title=📈%20Contribution%20Graph&area_color=A855F750" width="100%"/>
+### 📅 Contribution Calendar
+
+<img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/isocalendar.svg" alt="Isometric Calendar" width="100%"/>
 
 </div>
 
 ---
 
-## 🏆 GitHub Achievements
+## 🏆 Achievements & Habits
 
 <div align="center">
 
-<!-- Modern achievements using github-profile-trophy with cleaner theme -->
-<img src="https://github-profile-trophy.vercel.app/?username=jair0305&theme=discord&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15&rank=-C,-B" alt="GitHub Trophies"/>
+<table>
+<tr>
+<td width="50%" align="center">
+
+### 🎖️ GitHub Achievements
+<img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/achievements.svg" alt="Achievements"/>
+
+</td>
+<td width="50%" align="center">
+
+### 💡 Coding Habits
+<img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/habits.svg" alt="Coding Habits"/>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 📈 This Week's Coding Stats
+
+<!--START_SECTION:waka-->
+```text
+🔥 Currently setting up WakaTime integration...
+```
+<!--END_SECTION:waka-->
+
+> 💡 *Connect [WakaTime](https://wakatime.com) for automatic code tracking!*
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+[![SOFFIA](https://img.shields.io/badge/🧾_SOFFIA-Electronic_Invoicing_Platform-D82909?style=for-the-badge&labelColor=292929)](https://github.com/jair0305)
+[![Government](https://img.shields.io/badge/🏛️_Congreso_GTO-Voting_Systems-EB5121?style=for-the-badge&labelColor=292929)](https://github.com/jair0305)
+[![Cloud](https://img.shields.io/badge/☁️_AWS-Cloud_Solutions-FA7445?style=for-the-badge&labelColor=292929)](https://github.com/jair0305)
 
 </div>
 
@@ -138,18 +175,23 @@ No activity tracked this week
 
 <div align="center">
 
-<a href="https://linkedin.com/in/jair-chávez">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://instagram.com/jairci305">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
-<a href="https://www.leetcode.com/jair0305">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a>
-<a href="mailto:your-email@example.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jair-chávez)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jairci305)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/jair65224491)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/jair0305)
+[![HackerEarth](https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=hackerearth&logoColor=white)](https://www.hackerearth.com/@chamaco_03)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+
+</div>
+
+---
+
+## 💭 Dev Quote
+
+<div align="center">
+
+> *"First, solve the problem. Then, write the code."*  
+> — **John Johnson**
 
 </div>
 
@@ -157,19 +199,16 @@ No activity tracked this week
 
 <div align="center">
 
-<!-- Snake animation - Requires workflow setup -->
+<!-- Snake animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jair0305/jair0305/output/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jair0305/jair0305/output/github-snake.svg"/>
-  <img alt="github-snake" src="https://raw.githubusercontent.com/jair0305/jair0305/output/github-snake-dark.svg"/>
+  <img alt="Snake Animation" src="https://raw.githubusercontent.com/jair0305/jair0305/output/github-snake-dark.svg" width="100%"/>
 </picture>
 
 <br/><br/>
 
-<!-- Quote -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it%2C%20it%27s%20bad.&author=Cory%20House"/>
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+<!-- Footer with Volcano gradient -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,50:D82909,100:FCB930&height=120&section=footer"/>
 
 </div>
