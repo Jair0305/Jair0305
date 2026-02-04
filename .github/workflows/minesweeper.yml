@@ -28,9 +28,19 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Create or checkout output branch (orphan to avoid history bloat)
+          git checkout --orphan output-minesweeper
+          
+          # Copy dist files to root
+          cp -r dist/* .
+          
+          # Add and commit
+          git add minesweeper.svg minesweeper-dark.svg
+          git commit -m "🚀 Deploy Minesweeper output" || echo "No changes to commit"
+          
+          # Force push to output branch
+          git push origin output-minesweeper --force

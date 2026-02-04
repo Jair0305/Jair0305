@@ -146,15 +146,26 @@ const jair: Developer = {
 
 <!-- Snake animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jair0305/jair0305/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jair0305/jair0305/output/github-snake.svg"/>
-  <img alt="Snake Animation" src="https://raw.githubusercontent.com/jair0305/jair0305/output/github-snake-dark.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jair0305/jair0305/output-snake/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jair0305/jair0305/output-snake/github-snake.svg"/>
+  <img alt="Snake Animation" src="https://raw.githubusercontent.com/jair0305/jair0305/output-snake/github-snake-dark.svg" width="100%"/>
 </picture>
 
+<!-- Generated Metrics from Action -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/base.svg" alt="Base Metrics" width="48%">
+  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/languages.svg" alt="Languages" width="48%">
+  <br/>
+  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/isocalendar.svg" alt="Calendar" width="100%">
+  <br/>
+  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/habits.svg" alt="Habits" width="48%">
+  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/achievements.svg" alt="Achievements" width="48%">
+</div>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output/minesweeper-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output/minesweeper.svg">
-  <img alt="Minesweeper" src="https://raw.githubusercontent.com/Jair0305/Jair0305/output/minesweeper.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper.svg">
+  <img alt="Minesweeper" src="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper.svg">
 </picture>
 
 <br/><br/>
