@@ -165,7 +165,7 @@ const jair: Developer = {
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper.svg">
-  <img alt="Minesweeper" src="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper.svg">
+  <img alt="Minesweeper" src="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper.svg" width="100%">
 </picture>
 
 <br/><br/>
