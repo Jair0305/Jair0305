@@ -9,6 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Generate Minesweeper
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout Repository
