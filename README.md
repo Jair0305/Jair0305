@@ -151,6 +151,12 @@ const jair: Developer = {
   <img alt="Snake Animation" src="https://raw.githubusercontent.com/jair0305/jair0305/output/github-snake-dark.svg" width="100%"/>
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output/minesweeper-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output/minesweeper.svg">
+  <img alt="Minesweeper" src="https://raw.githubusercontent.com/Jair0305/Jair0305/output/minesweeper.svg">
+</picture>
+
 <br/><br/>
 
 <!-- Footer with Volcano gradient -->
