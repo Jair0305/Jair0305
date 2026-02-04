@@ -5,6 +5,11 @@ on:
     - cron: "0 0 * * *" # Se ejecuta cada medianoche
   workflow_dispatch:
 
+  push:
+    branches:
+      - main
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
