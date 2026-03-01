@@ -1,0 +1,46 @@
+name: Generate Minesweeper
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Se ejecuta cada medianoche
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate Minesweeper
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
+      - name: Generate Minesweeper SVG
+        uses: Jair0305/github-contribution-minesweeper@v1.0.3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.METRICS_TOKEN }}
+          
+      - name: Push to Output Branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Create or checkout output branch (orphan to avoid history bloat)
+          git checkout --orphan output-minesweeper
+          
+          # Copy dist files to root
+          cp -r dist/* .
+          
+          # Add and commit
+          git add minesweeper.svg minesweeper-dark.svg
+          git commit -m "🚀 Deploy Minesweeper output" || echo "No changes to commit"
+          
+          # Force push to output branch
+          git push origin output-minesweeper --force
