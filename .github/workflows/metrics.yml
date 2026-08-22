@@ -1,0 +1,115 @@
+name: Generate GitHub Profile Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at midnight
+  workflow_dispatch:  # Allows manual trigger
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Main metrics - Base stats with Volcano theme
+      - name: 📊 Base Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jair0305
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: America/Mexico_City
+          config_display: large
+          config_padding: 0, 8
+          # Volcano theme colors
+          config_order: base.header, base.activity, base.community, base.repositories
+          
+      # Languages metrics
+      - name: 🈷️ Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jair0305
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_colors: "0:#D82909, 1:#EB5121, 2:#FA7445, 3:#FCB930, 4:#FF6B6B, 5:#4ECDC4, 6:#45B7D1, 7:#96CEB4"
+          config_timezone: America/Mexico_City
+          
+      # Isometric calendar with Volcano colors
+      - name: 📅 Isometric Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jair0305
+          template: classic
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: America/Mexico_City
+          
+      # Achievements
+      - name: 🏆 Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jair0305
+          template: classic
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
+          config_timezone: America/Mexico_City
+          
+      # Coding habits
+      - name: 💡 Habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jair0305
+          template: classic
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_from: 200
+          config_timezone: America/Mexico_City
+
+  # Snake animation job - Includes ALL contributions (personal + organizations)
+  snake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 🐍 Generate Snake (All Contributions)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: jair0305
+          # Use METRICS_TOKEN to access organization contributions
+          github_token: ${{ secrets.METRICS_TOKEN }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#EB5121&color_dots=#292929,#D82909,#EB5121,#FA7445,#FCB930
+            dist/github-snake.gif?color_snake=#EB5121&color_dots=#ebedf0,#D82909,#EB5121,#FA7445,#FCB930
+            
+      - name: 📤 Push Snake
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output-snake
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
