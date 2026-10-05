@@ -1,176 +1,82 @@
-<div align="center">
-
-<!-- Animated gradient header - Volcano colors -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:111111,50:D82909,100:FCB930&height=200&section=header&text=Jair%20Chavez%20Islas&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Backend%20Developer%20%7C%20Cloud%20Enthusiast&descSize=18&descAlignY=55"/>
-
-<!-- Typing animation - Volcano orange -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=EB5121&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=650&height=80&lines=Building+Scalable+Backend+Systems+%F0%9F%94%A5;Cloud+%26+AWS+Solutions+Architect+%E2%98%81%EF%B8%8F;%F0%9F%87%B2%F0%9F%87%BD" alt="Typing SVG" width="650" height="80"/></a>
-
-<br><br/>
-
-<!-- Profile badges -->
-<img src="https://komarev.com/ghpvc/?username=jair0305&label=Profile%20views&color=0e75b6&style=flat" alt="jair0305" />
-
-<br/><br/>
-
-<!-- Trophies - ORIGINAL URL -->
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jair0305" alt="jair0305" /></a>
-
-</div>
-
----
-
-## 🔥 About Me
-
-```typescript
-const jair: Developer = {
-  pronouns: "he" | "him",
-  location: "Guanajuato, México 🇲🇽",
-  role: "Backend Developer",
-  
-  currentlyWorkingOn: [
-    "Electronic Invoicing Platform",
-    "Government Systems & Voting Platforms",
-    "Cloud-Native Applications",
-    "Passify"
-  ],
-  
-  techStack: {
-    backend: ["Java", "Spring Boot", "C#", ".NET"],
-    frontend: ["Next.js", "React", "Angular"],
-    cloud: ["AWS", "DynamoDB", "S3", "Cognito"],
-    devOps: ["Docker", "GitHub Actions", "Linux"]
-  },
-  
-  currentlyLearning: [
-    "Microservices Architecture",
-    "Event-Driven Systems",
-    "AWS Solutions Architecture"
-  ],
-  
-  askMeAbout: [
-    "Backend Development",
-    "API Design", 
-    "Cloud Architecture",
-    "System Design"
-  ],
-  
-  funFact: "I debug with ☕ and solve problems with 🔥"
-};
-```
-
----
-
-## 🛠️ Tech Arsenal
-
-<div align="center">
-
-### 💻 Languages & Frameworks
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,spring,dotnet,cs,typescript,javascript,python,nodejs&theme=dark&perline=8" alt="Languages"/>
+<a href="https://jair.nightly.mx">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img alt="Jair Chávez Islas — Fullstack developer, partner at NightlySoftware" src="assets/header-light.svg" width="100%">
+  </picture>
 </a>
 
-### ☁️ Cloud & DevOps
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,github,githubactions,linux,bash,gradle&theme=dark&perline=8" alt="Cloud & DevOps"/>
-</a>
-
-### 🌐 Frontend & Design
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,tailwind,html,css,figma,sass&theme=dark&perline=8" alt="Frontend"/>
-</a>
-
-### 🗄️ Databases & Tools
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,dynamodb,redis,kafka,postman,idea&theme=dark&perline=8" alt="Databases & Tools"/>
-</a>
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<!-- ORIGINAL URLS THAT WORK - NO THEME PARAMETER -->
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jair0305&show_icons=true&locale=en&layout=compact" alt="jair0305" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jair0305&show_icons=true&locale=en" alt="jair0305" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jair0305&" alt="jair0305" /></p>
-
-<br/>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-[![Government](https://img.shields.io/badge/🏛️_Congreso_GTO-Voting_Systems-EB5121?style=for-the-badge&labelColor=292929)](https://github.com/jair0305)
-[![Cloud](https://img.shields.io/badge/☁️_AWS-Cloud_Solutions-FA7445?style=for-the-badge&labelColor=292929)](https://github.com/jair0305)
-[![Passify](https://img.shields.io/badge/🔐_Passify-Security_App-D82909?style=for-the-badge&labelColor=292929)](https://github.com/jair0305)
-
-</div>
-
----
-
-## 🌐 Connect With Me
-
-<p align="left">
-<a href="https://twitter.com/jair65224491" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jair65224491" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/jair chávez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jair chávez" height="30" width="40" /></a>
-<a href="https://fb.com/jair chávez islas" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jair chávez islas" height="30" width="40" /></a>
-<a href="https://instagram.com/jairci305" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jairci305" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/jair0305" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="jair0305" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/@chamaco_03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@chamaco_03" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://jair.nightly.mx"><b>🌕 Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://jair.nightly.mx/explore"><b>🛰️ Explore in 3D</b></a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/jair-ch%C3%A1vez-islas-a4283820a"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="mailto:chamaco_03@hotmail.es"><b>Email</b></a> &nbsp;·&nbsp;
+  <a href="https://jair.nightly.mx/Jair_Ch%C3%A1vez_Islas_CV.pdf"><b>CV</b></a>
 </p>
 
----
+Computer Systems Engineer and partner at **[NightlySoftware](https://nightly.mx)**. I build across backend, frontend, data, cloud and infrastructure, from government systems that run real legislative processes to products I ship with my brother and my best friends. My route into software wasn't linear, and I like it that way.
 
-## 💭 Dev Quote
+<details>
+<summary>🇲🇽 <b>En español</b></summary>
+<br>
 
-<div align="center">
+Ingeniero en Sistemas Computacionales, desarrollador fullstack y socio en **NightlySoftware**. Trabajo con backend, frontend, bases de datos, cloud, DevOps e infraestructura; no como una lista perfecta, sino como una búsqueda constante hasta construir criterio propio. Hoy mantengo sistemas institucionales en el Congreso de Guanajuato, construyo producto con mi hermano y empujo a Nightly hacia su siguiente escala.
 
-> *"First, solve the problem. Then, write the code."*  
-> — **John Johnson**
+</details>
 
-</div>
+&nbsp;
 
----
+## ✦ Orbit log
 
-<div align="center">
+Every station is a real stage: influences, doubts, changes of direction, teams and the skills that shaped how I build.
 
-<!-- Snake animation -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jair0305/jair0305/output-snake/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jair0305/jair0305/output-snake/github-snake.svg"/>
-  <img alt="Snake Animation" src="https://raw.githubusercontent.com/jair0305/jair0305/output-snake/github-snake-dark.svg" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/route-dark.svg">
+  <img alt="Journey from 2014 to now: First Signal, Technical Seed, Pandemic Drift, False Orbits, Data Gravity, Shadow Zone, Community Orbit, Hackathon Boost, Nightly Orbit, Infrastructure Year, Product Horizon, Next Signal" src="assets/route-light.svg" width="100%">
 </picture>
 
-<!-- Generated Metrics from Action -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/base.svg" alt="Base Metrics" width="48%">
-  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/languages.svg" alt="Languages" width="48%">
-  <br/>
-  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/isocalendar.svg" alt="Calendar" width="100%">
-  <br/>
-  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/habits.svg" alt="Habits" width="48%">
-  <img src="https://raw.githubusercontent.com/jair0305/jair0305/main/metrics/achievements.svg" alt="Achievements" width="48%">
-</div>
+## ✦ Mission archive
+
+| | Mission | What it is | Stack |
+|:-:|---|---|---|
+| 🟢 | **Cleanly** · 2026 → now | Operations platform for professional cleaning services: express quotes, client / cleaner / admin roles, photo evidence and payments. My first paid product with my brother. | Next.js · Convex · Clerk · Turborepo · Bun |
+| 🟣 | **E‑voting, Congreso GTO** · 2025 → now | Legislative voting system with biometrics and real-time results. In production since Nov 2025; I keep it in orbit. | .NET · SignalR · React · AWS Rekognition · Cognito · SQL Server |
+| 🟣 | **Verdict** · 2026 | Offline desktop app for auditing large legal case files, with local full-text search, PDF review and annotations. | Electron · Next.js · SQLite · React PDF · Zustand |
+| 🟣 | **Command** · 2026 | Dev ticketing for institutional teams: intake, assignment, conversation and reports. | Backend · Chat · Reporting |
+| 🟢 | **Pixel Office** · 2026 | A Habbo-style pixel office that comes alive with real GitHub repository activity. | Bun · Hono · Go · Redis · Canvas |
+| 🔵 | **Passify** · 2024 → paused | Digital wallet passes with multitenancy on PostgreSQL RLS, plans and payments. Ambitious, still open. | Spring Boot · PostgreSQL RLS · Next.js · tRPC · Stripe |
+| 🟡 | **Tramet** · 2024 | My first paid project: an admin platform with the backend built from scratch. | Spring Boot · Next.js · MySQL · Docker · Actions |
+| 🟡 | **Munchez** · 2023 | Cafeteria system (POS, kitchen, admin, reports) built with my best friend. | React · Spring Boot · MySQL · JWT · Flyway |
+
+<sub>🟡 community &nbsp; 🔵 Nightly &nbsp; 🟣 institutional &nbsp; 🟢 product. Full case studies live on <a href="https://jair.nightly.mx">jair.nightly.mx</a>.</sub>
+
+### 💣 Open-source launch
+
+**[github-contribution-minesweeper](https://github.com/Jair0305/github-contribution-minesweeper)**: a GitHub Action I built that turns any contribution graph into a self-solving Minesweeper game. Every commit day becomes a mine. It's running at the bottom of this page.
+
+## ✦ Tech constellations
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Core backend: Java, Spring, .NET, C#, Node, Bun, Go, Hono. Interface: TypeScript, React, Next.js, Vue, Nuxt, Tailwind, Electron. Product orbit: Convex, Clerk, Turborepo, tRPC, Stripe, Zod. Data: Postgres, SQL Server, MySQL, Redis, SQLite, Prisma. Cloud and ops: AWS, Azure, GCP, Cloudflare, Docker, Nginx, Linux, GitHub Actions, Grafana, Prometheus. AI and tooling: Claude Code, Codex, Python, Git, Figma." src="assets/stack-light.svg" width="100%">
+</picture>
+
+## ✦ Telemetry
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/telemetry-dark.svg">
+  <img alt="GitHub activity over the last 12 months: contributions, active days, streak, pull requests and language spectrum" src="assets/telemetry-light.svg" width="100%">
+</picture>
+
+## ✦ The grid, played two ways
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper.svg">
-  <img alt="Minesweeper" src="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper.svg" width="100%">
+  <img alt="Contribution graph as a self-solving Minesweeper" src="https://raw.githubusercontent.com/Jair0305/Jair0305/output-minesweeper/minesweeper.svg" width="100%">
 </picture>
 
-<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jair0305/Jair0305/output-snake/github-snake-dark.svg">
+  <img alt="Snake eating the contribution graph" src="https://raw.githubusercontent.com/Jair0305/Jair0305/output-snake/github-snake.svg" width="100%">
+</picture>
 
-<!-- Footer with Volcano gradient -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,50:D82909,100:FCB930&height=120&section=footer"/>
-
-</div>
+<p align="center"><sub>All artwork on this page is generated by <a href="scripts/build.mjs"><code>scripts/build.mjs</code></a> with zero dependencies and refreshed daily by GitHub Actions. No third-party widgets.</sub></p>
