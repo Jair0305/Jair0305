@@ -1,0 +1,65 @@
+name: Profile
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 00:17 in Guanajuato
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  art:
+    name: Render profile art
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Render SVGs
+        run: node scripts/build.mjs
+        env:
+          # PAT so private/org activity counts; falls back to the default token.
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(profile): refresh art [skip ci]"
+          git push
+
+  snake:
+    name: Snake
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=#0d9488&color_dots=#ebedf0,#ccfbf1,#5eead4,#14b8a6,#0f766e
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#5eead4&color_dots=#161b22,#134e4a,#0f766e,#14b8a6,#5eead4
+
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output-snake
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
